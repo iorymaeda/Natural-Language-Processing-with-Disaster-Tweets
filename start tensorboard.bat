@@ -1,0 +1,1 @@
+tensorboard --logdir "C:\Projects\Kaggle\Natural Language Processing with Disaster Tweets"
