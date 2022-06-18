@@ -6,11 +6,11 @@ There i'm trying to solve kaggle NLP task in a few ways:
 2. Tune BERT
 3. Train transformer text classifier from scratch
 
+# Results 
+
+1. Gradient Accumulated + Gradient Checkpoint increase batch_size from ~16 to ~512
+
 
 # References
 
-Joeri R. Hermans, Gerasimos Spanakis, Rico Möckel. Accumulated Gradient Normalization. [arxiv abs](https://arxiv.org/abs/1710.02368), 2017.
-
 Jacob Devlin, Ming-Wei Chang, Kenton Lee, Kristina Toutanova. BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding. [arxiv abs](https://arxiv.org/abs/1810.04805), 2019.
-
-Jianwei Feng, Dong Huang. Optimal Gradient Checkpoint Search for Arbitrary Computation Graphs. [arxiv abs](https://arxiv.org/abs/1808.00079), 2021.
