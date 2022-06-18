@@ -1,0 +1,6 @@
+torch==1.11.0+cu113
+torchmetrics==0.8.2
+transformers==4.16.0
+scikit-learn==1.1.1
+pandas==1.4.2
+tqdm==4.64.0
