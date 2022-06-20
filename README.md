@@ -2,15 +2,22 @@
 
 There i'm trying to solve kaggle NLP task in a few ways:
 
-1. Use BERT embeddings
-2. Tune BERT
-3. Train transformer text classifier from scratch
+- [X] Classify on BERT embeddings
+  - AUC: 0.8397
+- [X] Tune BERT
+  - AUC: 0.8831
+- [X] Classify on tuned BERT
+  - AUC: 0.8849
+- [X] Tune BERT with preproccesing
+    - in train progress right now
+- [ ] Classify on tuned BERT with preproccesing
+- [ ] Train transformer from scratch
 
-# Results 
+## Results
 
 1. Gradient Accumulated + Gradient Checkpoint increase batch_size from ~16 to ~512
+2. BERT tuning better than classify on BERT's embeddings
 
-
-# References
+## References
 
 Jacob Devlin, Ming-Wei Chang, Kenton Lee, Kristina Toutanova. BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding. [arxiv abs](https://arxiv.org/abs/1810.04805), 2019.
