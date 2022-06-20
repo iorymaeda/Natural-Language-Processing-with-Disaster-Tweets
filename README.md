@@ -6,11 +6,12 @@ There i'm trying to solve kaggle NLP task in a few ways:
   - AUC: 0.8397
 - [X] Tune BERT
   - AUC: 0.8831
-- [X] Classify on tuned BERT
+- [X] Classify on tuned BERT embeddings
   - AUC: 0.8849
 - [X] Tune BERT with preproccesing
-    - in train progress right now
+  - AUC: 0.8695   O.o
 - [ ] Classify on tuned BERT with preproccesing
+- [ ] Try BERT large instead BERT base (300m vs 100m parameters)
 - [ ] Train transformer from scratch
 
 ## Results
