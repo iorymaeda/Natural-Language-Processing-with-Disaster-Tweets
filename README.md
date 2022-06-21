@@ -1,14 +1,16 @@
 # [Natural Language Processing with Disaster Tweets](https://www.kaggle.com/competitions/nlp-getting-started/overview)
 
 There i'm trying to solve kaggle NLP task in a few ways:
+1. Classify on BERT embeddings
+2. Tune BERT
+3. Train transformer from scratch
 
+## Todo
 - [X] Classify on BERT embeddings
 - [X] Tune BERT
 - [X] Classify on tuned BERT embeddings
 - [X] Tune BERT with preproccesing
-
 - ~~Classify on tuned BERT with preproccesing~~
-
 - [X] Try BERT large instead BERT base (300m vs 100m parameters)
 - [ ] Train transformer from scratch
 
