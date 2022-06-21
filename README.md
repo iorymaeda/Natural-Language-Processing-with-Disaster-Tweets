@@ -10,7 +10,7 @@ There i'm trying to solve kaggle NLP task in a few ways:
 - [X] Tune BERT
 - [X] Classify on tuned BERT embeddings
 - [X] Tune BERT with preproccesing
-- ~~Classify on tuned BERT with preproccesing~~
+- [ ] ~~Classify on tuned BERT with preproccesing~~
 - [X] Try BERT large instead BERT base (300m vs 100m parameters)
 - [ ] Train transformer from scratch
 
