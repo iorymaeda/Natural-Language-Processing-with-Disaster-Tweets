@@ -1,11 +1,13 @@
 # [Natural Language Processing with Disaster Tweets](https://www.kaggle.com/competitions/nlp-getting-started/overview)
 
 There i'm trying to solve kaggle NLP task in a few ways:
+
 1. Classify on BERT embeddings
 2. Tune BERT
 3. Train transformer from scratch
 
 ## Todo
+
 - [X] Classify on BERT embeddings
 - [X] Tune BERT
 - [X] Classify on tuned BERT embeddings
@@ -18,17 +20,18 @@ There i'm trying to solve kaggle NLP task in a few ways:
 
 | model name\metric                  | AUC              |
 | ---------------------------------- | ---------------- |
-| Classify on BERT* embeddings       | 0.8397           |
-| Tune BERT 100m. WD** == 0.         | 0.8825           |
+| Classify on BERT embeddings        | 0.8397           |
+| Tune BERT 100m. WD == 0.           | 0.8825           |
 | Tune BERT 100m. WD == 0.01         | 0.8831           |
 | Tune BERT 100m. with preproccesing | 0.8695           |
 | Classify on tuned BERT embeddings  | 0.8849           |
-| Tune BERT 300m. WD == 0.         | 0.8871           |
-| Tune BERT 300m. WD == 0.01         | **0.8893** |
+| Tune BERT 300m. WD == 0.           | 0.8871           |
+| Tune BERT 300m. WD == 0.01         | **0.8893**       |
 
-*Trained model from huggingface
+<sub><sup>BERT is pre-trained model from huggingface</sup></sub>
+<sub><sup>WD is Weight decay</sup></sub>
 
-**Weight decay
+## Conclusions
 
 1. Gradient Accumulated + Gradient Checkpoint increase batch_size from ~16 to ~512 (acum_iter (4) *batch_size (128)) on base BERT 100m parameters
 2. BERT tuning better than classify on BERT's embeddings
