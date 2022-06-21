@@ -28,8 +28,9 @@ There i'm trying to solve kaggle NLP task in a few ways:
 | Tune BERT 300m. WD == 0.           | 0.8871           |
 | Tune BERT 300m. WD == 0.01         | **0.8893**       |
 
-<sub><sup>BERT is pre-trained model from huggingface</sup></sub>
-<sub><sup>WD is Weight decay</sup></sub>
+<sub>BERT is pre-trained model from huggingface</sup>
+<br>
+<sub>WD is Weight decay</sup>
 
 ## Conclusions
 
