@@ -18,11 +18,13 @@ There i'm trying to solve kaggle NLP task in a few ways:
 
 ## Results
 
-| model name\metric                  | AUC              |
+| model name                         | AUC              |
 | ---------------------------------- | ---------------- |
 | Classify on BERT embeddings        | 0.8397           |
 | Tune BERT 100m. WD == 0.           | 0.8825           |
 | Tune BERT 100m. WD == 0.01         | 0.8831           |
+| Tune BERT 100m. WD == 0.05         | 0.8843           |
+| Tune BERT 100m. WD == 0.10         | 0.8781           |
 | Tune BERT 100m. with preproccesing | 0.8695           |
 | Classify on tuned BERT embeddings  | 0.8849           |
 | Tune BERT 300m. WD == 0.           | 0.8871           |
@@ -39,6 +41,6 @@ There i'm trying to solve kaggle NLP task in a few ways:
 
 ## References
 
-Jacob Devlin, Ming-Wei Chang, Kenton Lee, Kristina Toutanova. BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding. [arxiv abs](https://arxiv.org/abs/1810.04805), 2019.
+BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding. Jacob Devlin, Ming-Wei Chang, Kenton Lee, Kristina Toutanova. [arxiv abs](https://arxiv.org/abs/1810.04805), 2019.
 
-Ilya Loshchilov, Frank Hutter. Decoupled Weight Decay Regularization. [arxiv abs](https://arxiv.org/abs/1711.05101), 2017.
+Decoupled Weight Decay Regularization. Ilya Loshchilov, Frank Hutter. [arxiv abs](https://arxiv.org/abs/1711.05101), 2017.
