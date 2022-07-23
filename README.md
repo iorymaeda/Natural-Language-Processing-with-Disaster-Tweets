@@ -12,7 +12,6 @@ There i'm trying to solve kaggle NLP task in a few ways:
 - [X] Tune BERT
 - [X] Classify on tuned BERT embeddings
 - [X] Tune BERT with preproccesing
-- [ ] ~~Classify on tuned BERT with preproccesing~~
 - [X] Try BERT large instead BERT base (300m vs 100m parameters)
 - [ ] Train transformer from scratch
 
@@ -30,7 +29,7 @@ There i'm trying to solve kaggle NLP task in a few ways:
 | Tune BERT 300m. WD == 0.           | 0.8871           |
 | Tune BERT 300m. WD == 0.01         | **0.8893**       |
 
-<sub>BERT is pre-trained model from huggingface</sup>
+<sub>pre-trained BERT from huggingface</sup>
 <br>
 <sub>WD is Weight decay</sup>
 
